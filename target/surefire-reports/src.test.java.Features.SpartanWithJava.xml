@@ -1,0 +1,73 @@
+<testsuite failures="0" name="src/test/java/Features/SpartanWithJava.feature" skipped="0" tests="3" time="1.063829">
+  <testcase classname="src.test.java.Features.SpartanWithJava" name="Create a new Spartan" time="0.605705">
+    <system-out>* def spartanUrl = 'http://52.207.61.129:8000' ............................ passed
+Given url spartanUrl ...................................................... passed
+And path 'api/spartans' ................................................... passed
+And header Accept = 'application/json' .................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request ............................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.Features.SpartanWithJava" name="Create a spartan with RandomData from JAVA code" time="0.228744">
+    <system-out>* def spartanUrl = 'http://52.207.61.129:8000' ............................ passed
+Given url spartanUrl ...................................................... passed
+And path 'api/spartans' ................................................... passed
+And header Accept = 'application/json' .................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request ............................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed
+* def spartanUrl = 'http://52.207.61.129:8000' ............................ passed
+* def SDG = Java.type('SpartanDataGenerator') ............................. passed
+* def newSpartan = SDG.createSpartan() .................................... passed
+Given url spartanUrl ...................................................... passed
+And path 'api/spartans' ................................................... passed
+And header Accept = 'application/json' .................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request newSpartan .................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+And match response.success == "A Spartan is Born!" ........................ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.Features.SpartanWithJava" name="Create a spartan with RandomData from JAVA code and DELETE" time="0.22938">
+    <system-out>* def spartanUrl = 'http://52.207.61.129:8000' ............................ passed
+Given url spartanUrl ...................................................... passed
+And path 'api/spartans' ................................................... passed
+And header Accept = 'application/json' .................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request ............................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+And print response ........................................................ passed
+* def spartanUrl = 'http://52.207.61.129:8000' ............................ passed
+* def SDG = Java.type('SpartanDataGenerator') ............................. passed
+* def newSpartan = SDG.createSpartan() .................................... passed
+Given url spartanUrl ...................................................... passed
+And path 'api/spartans' ................................................... passed
+And header Accept = 'application/json' .................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request newSpartan .................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+And match response.success == "A Spartan is Born!" ........................ passed
+* def spartanUrl = 'http://52.207.61.129:8000' ............................ passed
+* def SDG = Java.type('SpartanDataGenerator') ............................. passed
+* def newSpartan = SDG.createSpartan() .................................... passed
+Given url spartanUrl ...................................................... passed
+And path 'api/spartans' ................................................... passed
+And header Accept = 'application/json' .................................... passed
+And header Content-Type = 'application/json' .............................. passed
+And request newSpartan .................................................... passed
+When method post .......................................................... passed
+Then status 201 ........................................................... passed
+And match response.success == "A Spartan is Born!" ........................ passed
+* def idToDelete = response.data.id ....................................... passed
+Given url spartanUrl ...................................................... passed
+And path 'api/spartans',idToDelete ........................................ passed
+When method DELETE ........................................................ passed
+Then status 204 ........................................................... passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<testsuite failures="1" name="src/test/java/Features/ParameterTests.feature" skipped="0" tests="1" time="21.767989">
+  <testcase classname="src.test.java.Features.ParameterTests" name="get one spartan" time="21.767989">
+    <failure message="ParameterTests.feature:24 - &#10;org.apache.http.conn.HttpHostConnectException: Connect to 52.207.61.129:8080 [/52.207.61.129] failed: Connection timed out: connect">* def petUrl = 'https://petstore.swagger.io/v2/store' ..................... passed
+* def spartanUrl = 'http://52.207.61.129:8080' ............................ passed
+Given url spartanUrl ...................................................... passed
+And path "api/spartans" ................................................... passed
+And path '9' .............................................................. passed
+When method get ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: ParameterTests.feature:24 - 
+org.apache.http.conn.HttpHostConnectException: Connect to 52.207.61.129:8080 [/52.207.61.129] failed: Connection timed out: connect&#13;
+	at ✽.When method get (ParameterTests.feature:24)&#13;
+
+Then status 200 ........................................................... skipped
+And print response ........................................................ skipped</failure>
+  </testcase>
+</testsuite>
