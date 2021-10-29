@@ -20,7 +20,7 @@ Feature: Welcome to Karate Framework
     * def age = 20
     * print name, ' is ', age, ' years old
 
-  @wip
+
   Scenario: difficult parameters: json object
     * def student = {'name': 'Sam','owes_tuition':'false'}
     * print student

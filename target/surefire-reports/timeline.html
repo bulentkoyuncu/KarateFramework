@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-1"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"DataDrivenTests[1.1:16]","start":1001,"end":2365,"title":"DataDrivenTests[1.1:16] 18:00:01.001-18:00:02.365 get token for user"},{"id":2,"group":1,"content":"DataDrivenTests[1.2:17]","start":2373,"end":2713,"title":"DataDrivenTests[1.2:17] 18:00:02.373-18:00:02.713 get token for user"},{"id":3,"group":1,"content":"DataDrivenTests[1.3:18]","start":2721,"end":2983,"title":"DataDrivenTests[1.3:18] 18:00:02.721-18:00:02.983 get token for user"},{"id":4,"group":1,"content":"DataDrivenTests[1.4:19]","start":2990,"end":3315,"title":"DataDrivenTests[1.4:19] 18:00:02.990-18:00:03.315 get token for user"},{"id":5,"group":1,"content":"DataDrivenTests[1.5:20]","start":3320,"end":3636,"title":"DataDrivenTests[1.5:20] 18:00:03.320-18:00:03.636 get token for user"},{"id":6,"group":1,"content":"DataDrivenTests[1.6:21]","start":3642,"end":3901,"title":"DataDrivenTests[1.6:21] 18:00:03.642-18:00:03.901 get token for user"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

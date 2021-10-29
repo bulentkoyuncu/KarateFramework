@@ -1,0 +1,8 @@
+<testsuite failures="0" name="src/test/java/Features/AssertionsInKarate.feature" skipped="0" tests="1" time="0.078362">
+  <testcase classname="src.test.java.Features.AssertionsInKarate" name="contains matching" time="0.078362">
+    <system-out>* def spartans = .......................................................... passed
+* def length = spartans.length ............................................ passed
+* match length == 3 ....................................................... passed
+* match spartans contains { "id": 39,"name": "Eveleen","gender": "Female","phone": 1362642898} . passed</system-out>
+  </testcase>
+</testsuite>

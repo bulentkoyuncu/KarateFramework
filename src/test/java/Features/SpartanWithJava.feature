@@ -1,3 +1,4 @@
+@smoke
 Feature: Karate and JAVA Integration
 
   Background:
@@ -22,7 +23,7 @@ Feature: Karate and JAVA Integration
     And print response
 
   Scenario: Create a spartan with RandomData from JAVA code
-    * def SDG = Java.type('SpartanDataGenerator')
+    * def SDG = Java.type('utilities.SpartanDataGenerator')
     * def newSpartan = SDG.createSpartan()
     Given url spartanUrl
     And path 'api/spartans'
@@ -35,13 +36,13 @@ Feature: Karate and JAVA Integration
 
 
   Scenario: Create a spartan with RandomData from JAVA code and DELETE
-    * def SDG = Java.type('SpartanDataGenerator')
-    * def newSpartan = SDG.createSpartan()
+    * def newSpartan = Java.type('utilities.SpartanDataGenerator').createSpartan()
     Given url spartanUrl
     And path 'api/spartans'
     And header Accept = 'application/json'
     And header Content-Type = 'application/json'
     And request newSpartan
+    # From JAVA file to Json : serilization
     When method post
     Then status 201
     And match response.success == "A Spartan is Born!"

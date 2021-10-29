@@ -1,0 +1,7 @@
+<testsuite failures="0" name="src/test/java/Features/FirstKarateTest.feature" skipped="0" tests="1" time="0.079763">
+  <testcase classname="src.test.java.Features.FirstKarateTest" name="how to reach array object" time="0.079763">
+    <system-out>* def spartans = .......................................................... passed
+* print spartans[1].name .................................................. passed
+* print spartans[1].phone ................................................. passed</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,144 @@
+16:27:34.137 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:27:34.877 request:
+1 > GET https://cybertek-reservation-api-qa3.herokuapp.com/sign?email=sbirdbj%40fc2.com&password=asenorval
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa3.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+16:27:35.443 response time in milliseconds: 559.82
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 28 Oct 2021 21:27:36 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNDAiLCJhdWQiOiJzdHVkZW50LXRlYW0tbGVhZGVyIn0.xNvdQRyrYMb3Ec5QByHwXowBo3zPK2jQQS1eJ2RYIto","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNDAiLCJhdWQiOiJzdHVkZW50LXRlYW0tbGVhZGVyIn0.xNvdQRyrYMb3Ec5QByHwXowBo3zPK2jQQS1eJ2RYIto"}
+
+16:27:35.494 [print] {
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNDAiLCJhdWQiOiJzdHVkZW50LXRlYW0tbGVhZGVyIn0.xNvdQRyrYMb3Ec5QByHwXowBo3zPK2jQQS1eJ2RYIto",
+  "refreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNDAiLCJhdWQiOiJzdHVkZW50LXRlYW0tbGVhZGVyIn0.xNvdQRyrYMb3Ec5QByHwXowBo3zPK2jQQS1eJ2RYIto"
+}
+
+16:27:35.503 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxNDAiLCJhdWQiOiJzdHVkZW50LXRlYW0tbGVhZGVyIn0.xNvdQRyrYMb3Ec5QByHwXowBo3zPK2jQQS1eJ2RYIto
+16:27:35.510 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:27:35.521 request:
+1 > GET https://cybertek-reservation-api-qa3.herokuapp.com/sign?email=mnewbatt8o%40utexas.edu&password=opalcave
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa3.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+16:27:35.849 response time in milliseconds: 327.14
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 28 Oct 2021 21:27:36 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.HGk2-Cg1xdthN5b8EExPXS4XtWO83Br9aEhXSRkE43E","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.HGk2-Cg1xdthN5b8EExPXS4XtWO83Br9aEhXSRkE43E"}
+
+16:27:35.850 [print] {
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.HGk2-Cg1xdthN5b8EExPXS4XtWO83Br9aEhXSRkE43E",
+  "refreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.HGk2-Cg1xdthN5b8EExPXS4XtWO83Br9aEhXSRkE43E"
+}
+
+16:27:35.851 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5NyIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.HGk2-Cg1xdthN5b8EExPXS4XtWO83Br9aEhXSRkE43E
+16:27:35.859 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:27:35.866 request:
+1 > GET https://cybertek-reservation-api-qa3.herokuapp.com/sign?email=wamiss8p%40businesswire.com&password=olagrills
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa3.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+16:27:36.117 response time in milliseconds: 249.93
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 28 Oct 2021 21:27:37 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5OCIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.wNEZnpRpJ3AH94EFIqcE_wE430RX9SpIzakDbo-Yc2Q","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5OCIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.wNEZnpRpJ3AH94EFIqcE_wE430RX9SpIzakDbo-Yc2Q"}
+
+16:27:36.119 [print] {
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5OCIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.wNEZnpRpJ3AH94EFIqcE_wE430RX9SpIzakDbo-Yc2Q",
+  "refreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5OCIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.wNEZnpRpJ3AH94EFIqcE_wE430RX9SpIzakDbo-Yc2Q"
+}
+
+16:27:36.121 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiI5OCIsImF1ZCI6InN0dWRlbnQtdGVhbS1tZW1iZXIifQ.wNEZnpRpJ3AH94EFIqcE_wE430RX9SpIzakDbo-Yc2Q
+16:27:36.128 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:27:36.134 request:
+1 > GET https://cybertek-reservation-api-qa3.herokuapp.com/sign?email=mstacey8r%40imdb.com&password=skylargiblin
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa3.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+16:27:36.452 response time in milliseconds: 317.23
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 28 Oct 2021 21:27:37 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDEiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.c5LKUY0bU8UCaUycdImZDMTBAT7yOTbdyCTFqTyj5-A","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDEiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.c5LKUY0bU8UCaUycdImZDMTBAT7yOTbdyCTFqTyj5-A"}
+
+16:27:36.452 [print] {
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDEiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.c5LKUY0bU8UCaUycdImZDMTBAT7yOTbdyCTFqTyj5-A",
+  "refreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDEiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.c5LKUY0bU8UCaUycdImZDMTBAT7yOTbdyCTFqTyj5-A"
+}
+
+16:27:36.453 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDEiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.c5LKUY0bU8UCaUycdImZDMTBAT7yOTbdyCTFqTyj5-A
+16:27:36.457 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:27:36.463 request:
+1 > GET https://cybertek-reservation-api-qa3.herokuapp.com/sign?email=ecrasford8s%40dagondesign.com&password=bricesiddell
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa3.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+16:27:36.772 response time in milliseconds: 308.25
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 28 Oct 2021 21:27:37 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDIiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.1jutOXk3UJ94pHL43rZhRaHfol3QnfAv5JUTi9NmtoE","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDIiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.1jutOXk3UJ94pHL43rZhRaHfol3QnfAv5JUTi9NmtoE"}
+
+16:27:36.773 [print] {
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDIiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.1jutOXk3UJ94pHL43rZhRaHfol3QnfAv5JUTi9NmtoE",
+  "refreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDIiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.1jutOXk3UJ94pHL43rZhRaHfol3QnfAv5JUTi9NmtoE"
+}
+
+16:27:36.774 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDIiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.1jutOXk3UJ94pHL43rZhRaHfol3QnfAv5JUTi9NmtoE
+16:27:36.779 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+16:27:36.786 request:
+1 > GET https://cybertek-reservation-api-qa3.herokuapp.com/sign?email=gwilloway8t%40nih.gov&password=morrievondrach
+1 > Accept: application/json
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: cybertek-reservation-api-qa3.herokuapp.com
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_231)
+
+16:27:37.038 response time in milliseconds: 251.26
+1 < 200
+1 < Connection: close
+1 < Content-Type: application/json
+1 < Date: Thu, 28 Oct 2021 21:27:38 GMT
+1 < Server: Jetty(9.4.8.v20171121)
+1 < Via: 1.1 vegur
+{"accessToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDMiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.3EXwNk0KFNDcVnWYGdfgOmBMdGMK2KU9vPlV54ATVPM","refreshToken":"eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDMiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.3EXwNk0KFNDcVnWYGdfgOmBMdGMK2KU9vPlV54ATVPM"}
+
+16:27:37.038 [print] {
+  "accessToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDMiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.3EXwNk0KFNDcVnWYGdfgOmBMdGMK2KU9vPlV54ATVPM",
+  "refreshToken": "eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDMiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.3EXwNk0KFNDcVnWYGdfgOmBMdGMK2KU9vPlV54ATVPM"
+}
+
+16:27:37.039 [print] eyJhbGciOiJIUzI1NiJ9.eyJqdGkiOiIxMDMiLCJhdWQiOiJzdHVkZW50LXRlYW0tbWVtYmVyIn0.3EXwNk0KFNDcVnWYGdfgOmBMdGMK2KU9vPlV54ATVPM

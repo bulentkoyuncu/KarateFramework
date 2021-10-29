@@ -1,0 +1,10 @@
+<testsuite failures="0" name="src/test/java/Features/ApiTestPets.feature" skipped="0" tests="1" time="1.0312">
+  <testcase classname="src.test.java.Features.ApiTestPets" name="body verification" time="1.0312">
+    <system-out>Given url 'https://petstore.swagger.io/v2/store/inventory' ................ passed
+When method GET ........................................................... passed
+Then status 200 ........................................................... passed
+And match response.AVAILABLE == 1 ......................................... passed
+And match response.sold == '#present' ..................................... passed
+And match response.unavailable == '#number' ............................... passed</system-out>
+  </testcase>
+</testsuite>

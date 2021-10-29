@@ -1,3 +1,5 @@
+package Utilities;
+
 import com.github.javafaker.Faker;
 
 import java.util.HashMap;
